@@ -10,4 +10,8 @@ int main(void)
     // get name as input
     string name = GetString();
     printf("hello, %s\n", name);
+    
+    // get first initial
+    char initialOne = name[0];
+    
 }
