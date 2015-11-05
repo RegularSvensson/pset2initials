@@ -25,4 +25,6 @@ int main(void)
         i++;
     }
     
+    // get second initial
+    char initialTwo = name[i + 1];
 }
