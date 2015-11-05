@@ -13,4 +13,13 @@ int main(void)
     // print first initial
     printf("%c", toupper(name[0]));
     
+    // print following initials
+    for (int i = 1; i < strlen(name); i++)
+    {
+        if (name[i] == ' ')
+        {
+            printf("%c", toupper(name[i + 1]));
+        }
+    }
+    
 }
