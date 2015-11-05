@@ -14,4 +14,15 @@ int main(void)
     // get first initial
     char initialOne = name[0];
     
+    // find blankspace
+    int i = 0;
+    while(i < strlen(name))
+    {
+        if (name[i] == ' ')
+        {
+            break;
+        }
+        i++;
+    }
+    
 }
