@@ -6,5 +6,7 @@
 // main function
 int main(void)
 {
-    printf("hello, world\n");
+    // get name as input
+    string name = GetString();
+    printf("hello, %s\n", name);
 }
