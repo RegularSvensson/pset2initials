@@ -10,4 +10,7 @@ int main(void)
     // get name as input
     string name = GetString();
     
+    // print first initial
+    printf("%c", toupper(name[0]));
+    
 }
