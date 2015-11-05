@@ -22,4 +22,6 @@ int main(void)
         }
     }
     
+    // print new line
+    printf("\n");
 }
